@@ -21,14 +21,14 @@
 !*.jsonl
 !*.txt
 
-# Optional config files
-!*.yml
-!*.yaml
+# # Optional config files
+# !*.yml
+# !*.yaml
 
-# Explicitly ignore document/export formats
-*.docx
-*.pdf
-*.pptx
+# # Explicitly ignore document/export formats
+# *.docx
+# *.pdf
+# *.pptx
 
 # Python/cache junk
 __pycache__/
