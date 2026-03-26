@@ -20,6 +20,8 @@
 !*.json
 !*.jsonl
 !*.txt
+!*.pdf
+!*.docx
 
 # # Optional config files
 # !*.yml
