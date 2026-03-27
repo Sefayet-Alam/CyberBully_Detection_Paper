@@ -1,2 +1,65 @@
+# Ignore everything first
+*
 
+# Allow folders so Git can enter directories
+!*/
+
+# Keep markdown
+!*.md
+
+# Keep notebooks
+!*.ipynb
+
+# Keep Python
+!*.py
+
+# Keep dataset files
+!*.csv
+!*.xlsx
+!*.tsv
+!*.json
+!*.jsonl
+!*.txt
+!*.pdf
+!*.docx
+
+# # Optional config files
+# !*.yml
+# !*.yaml
+
+# # Explicitly ignore document/export formats
+# *.docx
+# *.pdf
+# *.pptx
+
+# Python/cache junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large model/output artifacts
+outputs/checkpoints/
+outputs/logs/
+outputs/tmp/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+*.npy
+*.npz
+
+# Git internals
 .git/
