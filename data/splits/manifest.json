@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "total_samples": 135575,
+  "splits": {
+    "random_test.csv": 14248,
+    "random_train.csv": 114002,
+    "random_val.csv": 14333,
+    "script_holdout_test.csv": 80372,
+    "script_holdout_train.csv": 55990,
+    "script_holdout_val.csv": 6221,
+    "source_holdout_banth_test.csv": 80372,
+    "source_holdout_banth_train.csv": 55990,
+    "source_holdout_banth_val.csv": 6221,
+    "source_holdout_bd_shs_test.csv": 5032,
+    "source_holdout_bd_shs_train.csv": 123722,
+    "source_holdout_bd_shs_val.csv": 13829,
+    "source_holdout_facebook_44001_test.csv": 44114,
+    "source_holdout_facebook_44001_train.csv": 88545,
+    "source_holdout_facebook_44001_val.csv": 9924,
+    "source_holdout_multilabel_12557_test.csv": 13065,
+    "source_holdout_multilabel_12557_train.csv": 116465,
+    "source_holdout_multilabel_12557_val.csv": 13053
+  }
+}
