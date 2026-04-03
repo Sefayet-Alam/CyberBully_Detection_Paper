@@ -1,5 +1,0 @@
-model,split,accuracy,macro_f1,weighted_f1,mcc,auroc
-TF-IDF + Logistic Regression,test,0.8691,0.8669,0.8689,0.7342,0.9429
-TF-IDF + SVM,test,0.8897,0.8877,0.8894,0.776,0.9558
-TF-IDF + Random Forest,test,0.9099,0.909,0.91,0.8183,0.9718
-BiLSTM,test,0.8926,0.8914,0.8927,0.7828,0.9479
