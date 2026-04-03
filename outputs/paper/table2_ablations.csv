@@ -1,0 +1,9 @@
+Ablation,Macro-F1,Δ
+Full system (Ours),[FILL],—
+w/o ensemble (best single model),[FILL],[FILL]
+w/o multi-task (binary-only heads),[FILL],[FILL]
+w/o focal loss (standard CE),[FILL],[FILL]
+w/o layer-wise LR decay,[FILL],[FILL]
+w/o preprocessing,[FILL],[FILL]
+w/o new annotated data,[FILL],[FILL]
+w/o threshold tuning,[FILL],[FILL]
