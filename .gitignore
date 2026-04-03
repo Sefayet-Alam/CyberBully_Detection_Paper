@@ -1,0 +1,55 @@
+# Ignore everything by default
+*
+
+# Allow directory traversal (so we can selectively include subdirs)
+!*/
+
+# -------------------------
+# CODE + NOTEBOOKS
+# -------------------------
+!*.py
+!*.ipynb
+
+# -------------------------
+# LIGHTWEIGHT DATA FILES
+# -------------------------
+!*.csv
+!*.tsv
+!*.json
+!*.jsonl
+!*.parquet
+!*.txt
+!*.xlsx
+!*.xls
+
+# -------------------------
+# DOCUMENTATION
+# -------------------------
+!README.md
+!*.md
+
+# -------------------------
+# 🚫 EXCLUDE HEAVY MODEL FOLDERS & BINARY FILES
+# -------------------------
+03_models/
+*.pt
+*.bin
+*.safetensors
+*.pth
+*.h5
+*.onnx
+
+# Ignore trainer / optimizer state files (even if outside 03_models)
+*optimizer*
+*trainer_state.json
+*rng_state.pth
+
+# -------------------------
+# SYSTEM & IDE FILES
+# -------------------------
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
