@@ -1,9 +1,9 @@
 Category,Model,Accuracy,Macro-F1,Weighted-F1,MCC,AUROC
 Baseline,TF-IDF + Logistic Regression,0.8691,0.8669,0.8689,0.7342,0.9429
-Baseline,TF-IDF + SVM,0.8897,0.8877,0.8894,0.776,0.9558
-Baseline,TF-IDF + Random Forest,0.9099,0.909,0.91,0.8183,0.9718
+Baseline,TF-IDF + SVM,0.8897,0.8877,0.8894,0.7760,0.9558
+Baseline,TF-IDF + Random Forest,0.9099,0.9090,0.9100,0.8183,0.9718
 Baseline,BiLSTM,0.8926,0.8914,0.8927,0.7828,0.9479
-Transformer,banglabert,0.9252±0.0005,0.9243±0.0005,0.9252±0.0005,0.8487±0.0010,-
-Transformer,muril,0.9189±0.0013,0.9178±0.0013,0.9189±0.0012,0.8357±0.0025,-
-Transformer,xlmr,0.9159±0.0021,0.9150±0.0021,0.9160±0.0021,0.8304±0.0041,-
-Ensemble,Weighted Ensemble (Ours),[FILL],[FILL],[FILL],[FILL],[FILL]
+Transformer,BanglaBERT,0.9252+/-0.0005,0.9243+/-0.0005,0.9252+/-0.0005,0.8487+/-0.0010,--
+Transformer,MuRIL,0.9189+/-0.0013,0.9178+/-0.0013,0.9189+/-0.0012,0.8357+/-0.0025,--
+Transformer,XLM-RoBERTa,0.9159+/-0.0021,0.9150+/-0.0021,0.9160+/-0.0021,0.8304+/-0.0041,--
+Ensemble,Weighted Ensemble (Ours),0.9346,0.9338,0.9346,0.8676,0.9794
