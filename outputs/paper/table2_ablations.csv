@@ -1,8 +1,6 @@
 Ablation,Macro-F1,Delta
-Full system (Ours),0.9338,--
-w/o ensemble (best single: BanglaBERT),0.9243,-0.0095
-w/o threshold tuning (default 0.50 is optimal),0.9338,+0.0000
-w/o multi-task (binary-only head),[NEED RUN],[NEED RUN]
-w/o focal loss (standard cross-entropy),[NEED RUN],[NEED RUN]
-w/o layer-wise LR decay (uniform LR),[NEED RUN],[NEED RUN]
-w/o preprocessing (raw text input),[NEED RUN],[NEED RUN]
+"Full system (Ensemble, 9 models)",0.9338,--
+w/o multi-task (binary head only),[PENDING],[PENDING]
+w/o focal loss (standard CE + class weights),[PENDING],[PENDING]
+w/o layer-wise LR decay (uniform LR),[PENDING],[PENDING]
+w/o preprocessing (raw text),[PENDING],[PENDING]

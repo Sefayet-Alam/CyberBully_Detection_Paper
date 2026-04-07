@@ -1,5 +1,7 @@
-Evaluation,Model,Macro-F1
-Random test (in-domain),Ensemble,[FILL]
-Source-held-out (Dataset A),Ensemble,[FILL]
-Source-held-out (Dataset B),Ensemble,[FILL]
-Script-held-out (Romanized),Ensemble,[FILL]
+Split,Macro-F1,Accuracy,W-F1,MCC,AUROC
+Random test (in-domain),0.9322,0.933,0.9331,0.8644,0.9794
+Source-holdout: banth,0.9892,0.9913,0.9913,0.9785,0.9978
+Source-holdout: bd_shs,0.9604,0.9604,0.9604,0.9228,0.9949
+Source-holdout: facebook_44001,0.9798,0.9817,0.9816,0.9596,0.9968
+Source-holdout: multilabel_12557,0.9574,0.9609,0.9608,0.9148,0.992
+Script-holdout: Romanized/Banglish,0.9892,0.9913,0.9913,0.9785,0.9978
