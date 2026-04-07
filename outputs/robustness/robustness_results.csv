@@ -1,7 +1,7 @@
 split,accuracy,macro_f1,weighted_f1,mcc,auroc
-random_test (in-domain),0.9346,0.9338,0.9346,0.8676,0.9794
-source_holdout_banth,0.9913,0.9893,0.9913,0.9785,0.9979
-source_holdout_bd_shs,0.9604,0.9604,0.9604,0.9229,0.9949
-source_holdout_facebook_44001,0.9819,0.98,0.9819,0.9601,0.9966
-source_holdout_multilabel_12557,0.9617,0.9583,0.9616,0.9165,0.9922
-script_holdout_romanized,0.9913,0.9893,0.9913,0.9785,0.9979
+random_test (in-domain),0.933,0.9322,0.9331,0.8644,0.9794
+source_holdout_banth,0.9913,0.9892,0.9913,0.9785,0.9978
+source_holdout_bd_shs,0.9604,0.9604,0.9604,0.9228,0.9949
+source_holdout_facebook_44001,0.9817,0.9798,0.9816,0.9596,0.9968
+source_holdout_multilabel_12557,0.9609,0.9574,0.9608,0.9148,0.992
+script_holdout_romanized,0.9913,0.9892,0.9913,0.9785,0.9978
