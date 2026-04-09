@@ -1,15 +1,14 @@
 {
   "ensemble_type": "weighted_logits_average",
   "weights": {
-    "banglabert_seed123": 0.125,
-    "banglabert_seed42": 0.125,
-    "banglabert_seed456": 0.125,
-    "muril_seed123": 0.125,
-    "muril_seed456": 0.125,
-    "xlmr_seed123": 0.125,
-    "xlmr_seed42": 0.125,
-    "xlmr_seed456": 0.125
+    "banglabert_seed123": 0.07236672211437077,
+    "banglabert_seed42": 0.3651007668328175,
+    "banglabert_seed456": 0.03691664681745843,
+    "muril_seed123": 0.1449478198917864,
+    "muril_seed42": 0.0476889780063157,
+    "muril_seed456": 0.21756241834291004,
+    "xlmr_seed456": 0.11541664799434115
   },
-  "threshold": 0.6600000000000004,
-  "n_models": 8
+  "threshold": 0.5100000000000002,
+  "n_models": 7
 }
