@@ -1,7 +1,7 @@
-split,accuracy,macro_f1,weighted_f1,mcc,auroc
-random_test (in-domain),0.933,0.9322,0.9331,0.8644,0.9794
-source_holdout_banth,0.9913,0.9892,0.9913,0.9785,0.9978
-source_holdout_bd_shs,0.9604,0.9604,0.9604,0.9228,0.9949
-source_holdout_facebook_44001,0.9817,0.9798,0.9816,0.9596,0.9968
-source_holdout_multilabel_12557,0.9609,0.9574,0.9608,0.9148,0.992
-script_holdout_romanized,0.9913,0.9892,0.9913,0.9785,0.9978
+split,n,macro_f1,weighted_f1,accuracy,mcc,auroc
+random_test (in-domain),13558,0.9245,0.9254,0.9254,0.8489,0.9738
+source_holdout_banth,73999,0.9777,0.9819,0.9819,0.9554,0.9959
+source_holdout_bd_shs,5029,0.9342,0.9341,0.9342,0.8744,0.9926
+source_holdout_facebook_44001,44001,0.9736,0.9761,0.9761,0.9473,0.9952
+source_holdout_multilabel_12557,12546,0.9304,0.9358,0.9357,0.8608,0.9799
+script_holdout_romanized,73999,0.9777,0.9819,0.9819,0.9554,0.9959
